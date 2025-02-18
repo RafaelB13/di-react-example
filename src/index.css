@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 4rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+
+  & .card {
+    border-radius: 8px;
+  }
+
+  & .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  & pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.9rem;
+    padding: 2rem; 
+    border-radius: 4px;
+    overflow-x: auto;
+    line-height: 1.5;
+  }
+}
