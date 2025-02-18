@@ -1,4 +1,4 @@
-# Example React with TypeScript, Vite, and Dependency Injection
+# React with TypeScript, Vite, and Dependency Injection
 
 This application uses **React**, **TypeScript**, and **Vite**. To better organize imports, **aliases** have been configured in both `tsconfig.app.json` and `vite.config.ts`.
 
