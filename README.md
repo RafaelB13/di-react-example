@@ -22,9 +22,9 @@ The container is configured in `@shared/container.ts`. Here, dependencies are re
 
 ```typescript
 import { createContainer, asClass } from "awilix";
-import { UserDataSource } from "@data-sources/UserDataSource";
-import { UserRepository } from "@repositories/UserRepository";
-import { UserUseCase } from "@use-cases/UserUseCase";
+import { UserDataSource } from "@modules/user/datasources/UserDataSource";
+import { UserRepository } from "@modules/user/repositories/UserRepository";
+import { UserUseCase } from "@modules/user/usecases/UserUseCase";
 
 const container = createContainer();
 
